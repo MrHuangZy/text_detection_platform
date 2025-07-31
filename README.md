@@ -14,32 +14,9 @@
 
 ---
 
-## 🗂️ 项目结构
-
-text_detection_platform/
- ├── main.py                # 程序入口（登录界面）
- ├── home.py                # 主窗口导航
- ├── register.py            # 用户注册界面
- ├── login_backend.py       # 登录逻辑处理
- ├── module_detection.py    # 攻击性言论检测模块（基于 BERT）
- ├── module_user.py         # 用户行为与评分计算模块
- ├── module_health.py       # 用户健康评估模块
- ├── module_visual.py       # 可视化模块（使用 matplotlib）
- ├── module_crawl.py        # 评论数据抓取模块（requests）
- ├── captcha_util.py        # 验证码生成与验证工具
- ├── config.ini             # 系统配置文件
- ├── db_config.ini          # 数据库配置
- ├── simhei.ttf             # 中文字体文件
- ├── captcha.png            # 登录页面验证码图
- ├── roberta-base-cold/     # 微调后的 BERT 模型文件夹
- ├── main.spec              # PyInstaller 打包配置文件
- └── test.py                # 测试脚本
-
----
-
 ## 💻 环境依赖
 
-建议使用 Python 3.8+ 环境，推荐使用虚拟环境（如 Anaconda 或 venv）管理依赖。
+建议使用 Python 3.9+ 环境，推荐使用虚拟环境（如 Anaconda 或 venv）管理依赖。
 
 安装依赖：
 
@@ -63,12 +40,11 @@ pip install -r requirements.txt
 
 ## 📊 示例界面
 
-<img src=".\image-20250731111856789.png" alt="image-20250731111856789" style="zoom:150%;" />
+<img src=".\0e6f4630-a58e-43f4-adc4-a9b8de3421df.png" alt="image-20250731111856789" style="zoom:150%;" />
 
-<img src=".\image-20250731111931858.png" alt="image-20250731111931858" style="zoom:150%;" />
+<img src=".\1b9477a5-1ca1-4b10-b023-f57585aaa60d.png" alt="image-20250731111931858" style="zoom:150%;" />
 
-<img src=".\image-20250731111936417.png" alt="image-20250731111936417" style="zoom:120%;" />
+<img src=".\732ccfe3-ee77-4d3f-b240-734469ae130b.png" alt="image-20250731111936417" style="zoom:120%;" />
 
-<img src=".\image-20250731111940047.png" alt="image-20250731111940047" style="zoom:120%;" />
+<img src=".\d6bd716f-83f4-4e15-a223-26b2cc21bc98.png" alt="image-20250731111940047" style="zoom:120%;" />
 
-<img src=".\image-20250731111944313.png" alt="image-20250731111944313" style="zoom:130%;" />
