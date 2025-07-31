@@ -1,0 +1,2 @@
+# text_detection_platform
+基于BERT的网络用户言论检测平台
